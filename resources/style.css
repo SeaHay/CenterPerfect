@@ -79,7 +79,7 @@ hr {
 img, .YTVid iframe {border:5px #b2c4ff solid;border-radius: 20px / 12px;}
 
 .caption {
-	background-color:none;
+	background-color:transparent;
 	border:none;
 	border-radius:0px;
 	margin:auto;
