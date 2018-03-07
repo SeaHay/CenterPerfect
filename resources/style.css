@@ -1,0 +1,92 @@
+/*
+BG					-	#cccbdb
+FG					-	#0d0e20
+div					-	#324488
+a:hover;a:active	-	#575ba8
+a:visited;a:link	-	#212143
+*/
+
+@font-face {
+	font-family:"Comfortaa";
+	src:url("./font/Comfortaa-Regular.ttf");
+}
+@font-face {
+	font-family:"Bebas";
+	src:url("font/BEBAS.ttf");
+}
+
+a:link {color:#212143; text-decoration:none; font-weight:bold; font-size: 1em;}
+a:hover {color:#575ba8; font-weight:bolder; font-size: 1.125em;}
+a:visited {color:#212143; font-weight:bold; font-size: 1em;}
+a:active {color:#575ba8; font-weight:bolder; font-size: 1.125em;}
+
+body {
+	color:#0d0e20;
+	background-color:#cccbdb;
+	
+	font-family:Comfortaa, Verdana, Geneva, sans-serif;
+}
+
+body div {
+	background-color:#b2c4ff;
+	
+	border:3px #0d0e20 solid;
+	border-radius:3px;
+	
+	margin:auto;
+	padding:5px;
+	
+	width:70%;
+	max-height:100%;
+	height:100%;
+	
+	text-align:justify;
+	word-spacing:.1em;
+}
+
+h1 {
+	font-family:Bebas, Courier, monospace;
+	letter-spacing:1px;
+}
+
+div h1 {
+	text-align:center;
+}
+
+hr {
+	border:1px #324488 solid;
+	border-radius:50px;
+	
+	margin:2px 5px 2px 5px;
+}
+
+.YTVid {
+	float:none;
+    margin-left:auto;
+	margin-right:auto;
+	
+	border:none;
+	
+	text-align:center;
+	width:auto;
+	padding:-1px;
+	border-radius:0px;
+	background-color:transparent;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+img, .YTVid iframe {border:5px #b2c4ff solid;border-radius: 20px / 12px;}
+
+.caption {
+	background-color:none;
+	border:none;
+	border-radius:0px;
+	margin:auto;
+	padding:5px;
+	width:100%;
+	
+	text-align:left;
+}
+.caption img {vertical-align:text-top;}
+
